@@ -18,7 +18,7 @@
     }
   },
   "auth": {
-    "amplify4fbd1932": {
+    "amplify697cda2d": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {

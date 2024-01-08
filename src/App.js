@@ -12,12 +12,6 @@ import { useState, useEffect } from 'react';
 Amplify.configure(awsExports);
 
 
-
-
-
-
-
-
 function App() {
 
   const [city, setCity] = useState("")
@@ -35,6 +29,7 @@ function App() {
 
   const getRestaurants = async() => {
     const result = await client.graphql({ query: listTodos });
+    console.log(result)
     setData(result.data.listTodos.items);
   }
 
